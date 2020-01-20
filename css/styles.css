@@ -186,17 +186,19 @@ body {
     font-size: 14px;
     line-height: 27px;
     color: #FFFFFF;
+    margin-bottom: 42px;
 }
 
-
-/*.project-parameters {
+.project-parameters {
     display: flex;
+    flex-wrap: wrap;
+    max-width: 400px;
+}
+
+.project-parameters__element {
     width: 190px;
-    height: 200px;
-    flex-wrap: wrap; 
-
-
-} */
+    height: 103px;
+}
 
 .project-parameters h3 {
     font-family: Yeseva One;
@@ -206,6 +208,7 @@ body {
 }
 
 .project-parameters p {
+    margin-top: 9px;
     font-size: 13px;
     line-height: 21px;
 }
