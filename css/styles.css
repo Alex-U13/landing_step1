@@ -7,18 +7,18 @@
     font-style: normal;
     font-weight: normal;
 }
-                
+
 body {
     font-family: 'Nanito Sans', Arial, sans-serif;
     font-size: 11px;
     line-height: 15px;
 }
-                
+
 .container {
     max-width: 1250px;
     margin: 0 auto;
 }
-                
+
 .button {
     background: #E3B873;
     box-shadow: 0px 5px 15px rgba(227, 184, 115, 0.2);
@@ -30,49 +30,49 @@ body {
     font-size: 11px;
     line-height: 15px;
 }
-                
+
 .button-header {
     padding: 13px 33px;
 }
-                
+
 .logo {
     color: #E3B873;
     text-decoration: none;
 }
-                
+
 .header {
     background-color: black;
 }
-                
+
 .header-content {
     display: flex;
     justify-content: space-between;
     height: 83px;
     align-items: center;
 }
-                
+
 .header-navigation {
     list-style: none;
     display: flex;
-    }
-                
+}
+
 .header-navigation__item {
     margin-right: 47px;
 }
-                
+
 .header-navigation__item a {
     text-decoration: none;
     color: white;
 }
-                
+
 .header-navigation__item a:hover {
     color: #E3B873;
 }
-                
+
 .header-telefon {
     color: #E3B873;
 }
-                
+
 .fon1 {
     background-image: url('../images/fon1.jpeg');
     background-size: cover;
@@ -80,7 +80,7 @@ body {
     padding-top: 194px;
     position: relative;
 }
-                
+
 .fon1-overlay {
     content: '';
     position: absolute;
@@ -90,12 +90,12 @@ body {
     bottom: 0;
     background-color: rgba(0, 0, 0, .7);
 }
-                
+
 .fon1-container {
     position: relative;
     z-index: 1;
 }
-                
+
 .title {
     margin: 0;
     font-family: Yeseva One;
@@ -103,11 +103,11 @@ body {
     line-height: 53px;
     color: #FFFFFF;
 }
-                
+
 .subh1 {
     color: #E3B873;
 }
-                
+
 .subtitle {
     font-size: 22px;
     line-height: 36px;
@@ -115,16 +115,16 @@ body {
     margin-top: 20px;
     margin-bottom: 20px;
 }
-                
+
 .buttons {
     display: flex;
 }
-                
+
 .button-main {
     padding: 18px 42px;
     margin-right: 20px;
 }
-                
+
 .button-main-trans {
     border: 1px solid #FFFFFF;
     box-sizing: border-box;
@@ -132,22 +132,22 @@ body {
     padding: 17px 27px;
     background: transparent;
 }
-                
+
 .step2 {
     background-color: #131313;
 }
-                
+
 .navigation-projects {
     list-style: none;
     display: flex;
     padding-top: 107px;
     padding-left: 486.45px;
 }
-                
+
 .navigation-projects__item {
     margin-right: 60.5px;
 }
-                
+
 .navigation-projects__item a {
     text-decoration: none;
     font-family: Yeseva One;
@@ -156,22 +156,22 @@ body {
     text-transform: uppercase;
     color: rgba(255, 255, 255, 0.3);
 }
-                
+
 .navigation-projects__item a:hover {
     color: #E3B873;
     text-decoration: underline;
 }
-                
+
 .block-projects {
     display: flex;
     margin-top: 52.68px;
 }
-                
+
 .completed-projects {
     margin-right: 50px;
     max-width: 434px;
 }
-                
+
 .completed-projects h2 {
     font-family: Yeseva One;
     font-size: 27px;
@@ -181,44 +181,44 @@ body {
     color: #E3B873;
     margin-bottom: 34px;
 }
-                
+
 .completed-projects p {
     font-size: 14px;
     line-height: 27px;
     color: #FFFFFF;
     margin-bottom: 42px;
 }
-                
+
 .project-parameters {
     display: flex;
     flex-wrap: wrap;
     max-width: 400px;
     padding-bottom: 34px;
 }
-                
+
 .project-parameters__element {
     width: 190px;
     height: 103px;
 }
-                
+
 .project-parameters h3 {
     font-family: Yeseva One;
     font-size: 18px;
     line-height: 25px;
     color: #E3B873;
 }
-                
+
 .project-parameters p {
     margin-top: 9px;
     font-size: 13px;
     line-height: 21px;
     margin-bottom: 34px;
 }
-                
+
 .projects-points {
     padding-right: 25.5px;
 }
-                
+
 .online-control-text {
     font-family: Yeseva One;
     font-size: 20px;
@@ -228,16 +228,16 @@ body {
     color: #FFFFFF;
     padding-top: 92px;
 }
-                
+
 .online-control-logo {
     text-align: center;
     padding-bottom: 257px;
 }
-                
+
 .online-control-logo__items {
     border-radius: 30px;
 }
-                
+
 .video {
     background-image: url("../images/fonVideo.jpg");
     width: 817px;
@@ -246,12 +246,12 @@ body {
     margin: 0 auto;
     margin-top: -217px;
 }
-                
+
 .video-content div {
     padding-top: 174.5px;
     padding-left: 366px;
 }
-                
+
 .video-overlay {
     content: '';
     position: absolute;
@@ -261,16 +261,80 @@ body {
     bottom: 0;
     background-color: rgba(0, 0, 0, .8);
 }
-                
+
 .video-content {
     position: relative;
     z-index: 1;
 }
 
-.video-control-content p {
+.video-control-content {
     font-size: 18px;
     line-height: 37px;
     text-align: center;
     color: #363636;
-    padding-top: 98.5px;
+    padding-top: 62.5px;
+}
+
+.tire-center {
+    background: #E3B873;
+    border-radius: 30px;
+    margin-bottom: 34.46px;
+}
+
+.video-control-content p {
+    padding-bottom: 91.5px;
+}
+
+.input-button {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    max-width: 700px;
+    margin: 0 auto;
+    margin-bottom: 12px;
+}
+
+.input-button div {
+    padding-right: 50px;
+    padding-bottom: 35px;
+}
+
+input,
+label {
+    display: block;
+}
+
+.label {
+    font-size: 13px;
+    line-height: 21px;
+    color: rgba(54, 54, 54, 0.5);
+    text-align: left;
+}
+
+input {
+    font-size: 14px;
+    line-height: 23px;
+}
+
+.button-video-control-form {
+    box-shadow: 0px 15px 15px rgba(227, 184, 115, 0.15);
+    font-style: normal;
+    font-size: 13px;
+    line-height: 27px;
+    text-align: center;
+    text-transform: uppercase;
+    color: #FFFFFF;
+    padding: 12px 75.5px;
+}
+
+.checkbox {
+    display: inline;
+    font-size: 14px;
+    line-height: 23px;
+    color: #181818;
+}
+
+.checkbox-input {
+    background-color: line-height: 23px;
+    color: #FFFFFF;
 }
