@@ -403,3 +403,124 @@ input {
     color: #FFFFFF;
     padding: 17px 16.57px;
 }
+
+.orders-content {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.stage-of-order__container {
+    background-image: url("../images/fon-order.jpg");
+    height: 645px;
+    width: 703px;
+    margin-top: 124px;
+    margin-right: 37px;
+}
+
+.stage-of-order__1-4 {
+    padding-top: 117px;
+    padding-left: 229px;
+    width: 703px;
+}
+
+.stage-of-order__items {
+    display: flex;
+    font-size: 14px;
+    line-height: 19px;
+    color: #363636;
+    padding-bottom: 90px;
+}
+
+.krug {
+    background: #E3B873;
+    border: 8px solid #FFFFFF;
+    box-shadow: 0px 5px 15px rgba(227, 184, 115, 0.15);
+    border-radius: 30px;
+    padding: 5px;
+    padding-top: 10px;
+    margin-right: 17.5px;
+    width: 60px;
+    height: 60px;
+    font-family: Yeseva One;
+    font-size: 18px;
+    line-height: 25px;
+    text-align: center;
+    vertical-align: middle;
+    color: #FFFFFF;
+}
+
+.stage-of-order__items p {
+    padding-top: 10px;
+}
+
+.request {
+    background: #131313;
+    box-shadow: 0px 30px 30px rgba(0, 0, 0, 0.05);
+    color: #FFFFFF;
+    width: 506px;
+    height: 509px;
+    margin-top: 241px;
+}
+
+.request p {
+    font-size: 18px;
+    line-height: 26px;
+    text-align: center;
+    margin-top: 28px;
+    margin-bottom: 39px;
+}
+
+.label-request {
+    color: rgba(255, 255, 255, 0.5);
+    padding-left: 49px;
+}
+
+.input-request {
+    margin-left: 49px;
+    width: 408px;
+    background: #131313;
+    color: #FFFFFF;
+    margin-bottom: 48px;
+}
+
+.checkbox-request {
+    margin-top: -32px;
+}
+
+.checkbox-request input {
+    margin-left: 49px;
+    margin-right: 9px;
+    margin-top: -39px;
+}
+
+.checkbox-request input,
+label {
+    display: inline;
+    color: #FFFFFF;
+}
+
+.button-request {
+    font-family: Nunito Sans;
+    font-style: normal;
+    font-size: 13px;
+    line-height: 21px;
+    text-align: center;
+    text-transform: uppercase;
+    padding: 15px 39.25px;
+    margin-top: 39px;
+    margin-left: 244px;
+}
+
+.pig {
+    display: flex;
+    padding-top: 34px;
+    padding-left: 740px;
+}
+
+.pig p {
+    padding-top: 20px;
+    font-size: 18px;
+    line-height: 26px;
+    color: #E3B873;
+    text-shadow: 0px 3px 10px rgba(227, 184, 115, 0.15);
+}
