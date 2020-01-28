@@ -515,6 +515,7 @@ label {
     display: flex;
     padding-top: 34px;
     padding-left: 740px;
+    margin-bottom: 242px;
 }
 
 .pig p {
@@ -523,4 +524,125 @@ label {
     line-height: 26px;
     color: #E3B873;
     text-shadow: 0px 3px 10px rgba(227, 184, 115, 0.15);
+}
+
+.styles {
+    background-image: url('../images/styles-fon.jpg');
+    background-size: cover;
+    height: 864px;
+    position: relative;
+}
+
+.styles-content-overlay {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: linear-gradient(120.96deg, rgba(0, 0, 0, 0.75) 0%, rgba(0, 0, 0, 0.9) 100%);
+}
+
+.styles-content {
+    display: flex;
+    position: relative;
+    z-index: 1;
+}
+
+.styles-text {
+    width: 492px;
+}
+
+.styles-title {
+    font-size: 27px;
+    line-height: 37px;
+    text-transform: uppercase;
+    color: #E3B873;
+    padding-top: 137px;
+    padding-bottom: 47px;
+}
+
+.style-navigation {
+    list-style: none;
+}
+
+.style-navigation__item {
+    margin-bottom: 10px;
+}
+
+.style-navigation__item a {
+    text-decoration: none;
+    color: #FFFFFF;
+    font-size: 20px;
+    line-height: 38px;
+}
+
+.style-navigation__item a:hover {
+    color: #E3B873;
+}
+
+.styles-pictures {
+    display: flex;
+    flex-wrap: wrap;
+    max-width: 752px;
+}
+
+.styles-pictures__items {
+    width: 354px;
+}
+
+.americ_1 {
+    background-image: url('../images/styles/AmericClassic/AC_1.jpg');
+    height: 558px;
+    margin-top: -41px;
+    margin-right: 43px;
+    margin-bottom: 30px;
+}
+
+.americ_2 {
+    background-image: url('../images/styles/AmericClassic/AC_2.jpg');
+    height: 275px;
+    margin-top: -113px;
+}
+
+.americ_3 {
+    background-image: url('../images/styles/AmericClassic/AC_3.jpg');
+    height: 350px;
+    margin-right: 43px;
+}
+
+.americ_4 {
+    background-image: url('../images/styles/AmericClassic/AC_4.jpg');
+    height: 625px;
+    margin-top: -358px;
+}
+
+.clients-content {
+    padding-top: 111px;
+}
+
+.title-h3 {
+    font-family: Yeseva One;
+    font-size: 20px;
+    line-height: 28px;
+    text-align: center;
+    text-transform: uppercase;
+    color: #181818;
+}
+
+.minor-logo-center {
+    text-align: center;
+}
+
+.logo-clients-hand {
+    margin-top: 13px;
+    margin-bottom: 24px;
+}
+
+.clients-content p {
+    font-size: 18px;
+    line-height: 29px;
+    text-align: center;
+    color: #363636;
+    padding-bottom: 39px;
 }
