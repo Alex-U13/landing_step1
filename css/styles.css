@@ -644,5 +644,103 @@ label {
     line-height: 29px;
     text-align: center;
     color: #363636;
-    padding-bottom: 39px;
+    padding-bottom: 59px;
+}
+
+.personality-of-clients {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.personality-of-clients__items {
+    display: flex;
+    flex-wrap: wrap;
+    width: 380px;
+}
+
+.foto-client {
+    border-radius: 50%;
+    width: 95px;
+    height: 95px;
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+.fedosova {
+    background-image: url("../images/clients/fedosova.jpg");
+}
+
+.afanasyev {
+    background-image: url('../images/clients/afanasyev.jpg');
+}
+
+.kiriev {
+    background-image: url('../images/clients/kiriev.jpg');
+}
+
+.subtitle-clients {
+    font-family: Yeseva One;
+    font-size: 18px;
+    line-height: 23px;
+    color: #181818;
+    width: 160px;
+    margin-left: 20px;
+    padding-top: 20px;
+}
+
+.personality-of-clients__items p {
+    font-size: 13px;
+    line-height: 23px;
+    color: #959595;
+    text-align: left;
+    width: 324px;
+    height: 216px;
+    margin-top: 20px;
+    padding: 0;
+    margin-bottom: 63px;
+}
+
+.button-client {
+    box-shadow: 5px 5px 20px rgba(227, 184, 115, 0.5);
+    font-family: Yeseva One;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 17px;
+    line-height: 24px;
+    text-transform: uppercase;
+    padding-right: 16px;
+    border-radius: 0;
+    display: flex;
+    width: 294px;
+}
+
+.button-client span:first-of-type {
+    padding-right: 40px;
+}
+
+.button-client__item {
+    padding-top: 15px;
+    padding-left: 10px;
+}
+
+.button-client span {
+    padding-top: 18px;
+}
+
+.fon-clients {
+    background-image: url('../images/city.jpg');
+    background-repeat: repeat-x;
+    height: 449px;
+    position: relative;
+}
+
+.fon-clients-overlay {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgba(255, 255, 255, 0.5);
 }
