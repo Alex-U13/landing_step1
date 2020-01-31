@@ -372,8 +372,9 @@ input {
     margin-top: -120px;
     width: 330px;
     height: 286px;
-    background: #FFFFFF;
     box-shadow: 10px 10px 20px rgba(0, 0, 0, 0.03);
+    background: #FFFFFF;
+    position: relative;
 }
 
 .types-text h4 {
@@ -402,6 +403,7 @@ input {
     text-transform: uppercase;
     color: #FFFFFF;
     padding: 17px 16.57px;
+    position: absolute;
 }
 
 .orders-content {
@@ -738,9 +740,134 @@ label {
 .fon-clients-overlay {
     content: '';
     position: absolute;
+    background-color: rgba(255, 255, 255, .9);
+}
+
+.maps {
+    background-image: url('../images/city2.jpg');
+    background-size: cover;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    height: 920px;
+}
+
+.maps-overlay {
+    content: '';
+    position: absolute;
     top: 0;
     left: 0;
     right: 0;
     bottom: 0;
-    background-color: rgba(255, 255, 255, 0.5);
+    background: linear-gradient(180deg, rgba(24, 24, 24, 0.9) 3.47%, rgba(24, 24, 24, 0.72) 100%);
+}
+
+.questions-content {
+    margin-left: auto;
+    margin-right: auto;
+    width: 883px;
+    background: rgb(0, 0, 0);
+    position: absolute;
+    margin-top: -220px;
+    color: #ffffff;
+    align-self: center;
+    z-index: 1;
+}
+
+.questions-content h2 {
+    font-family: Yeseva One;
+    font-size: 20px;
+    line-height: 28px;
+    text-align: center;
+    text-transform: uppercase;
+    color: #FFFFFF;
+    padding-top: 34px;
+    padding-bottom: 46px;
+}
+
+.question-form {
+    display: flex;
+    flex-wrap: wrap;
+    width: 520px;
+    height: 304px;
+    margin: 0 auto;
+}
+
+.question-form___item {
+    width: 260px;
+    padding-left: 30px;
+    height: 45px;
+}
+
+.label-question {
+    color: rgba(255, 255, 255, 0.5);
+}
+
+.input-question {
+    color: #FFFFFF;
+    background: rgba(0, 0, 0);
+    width: 230px;
+    border-bottom-style: solid;
+}
+
+.main-question {
+    width: 490px;
+    margin-top: -20px;
+}
+
+.main-question__text {
+    width: 490px;
+}
+
+.checkbox-question {
+    display: flex;
+    margin-left: 30px;
+    justify-content: center;
+    width: 490px;
+}
+
+.checkbox-question input,
+label {
+    display: inline;
+}
+
+.checkbox-question label {
+    padding-left: 20px;
+}
+
+.submit-question {
+    margin: 0 auto;
+}
+
+.button-question {
+    font-style: normal;
+    font-size: 13px;
+    line-height: 27px;
+    text-align: center;
+    text-transform: uppercase;
+    height: 51px;
+    padding: 0 75.5px;
+}
+
+.maps-content {
+    text-align: center;
+    font-family: Yeseva One;
+    font-size: 20px;
+    line-height: 28px;
+    text-transform: uppercase;
+    color: #E3B873;
+    align-self: center;
+    z-index: 1;
+}
+
+.maps-content h2 {
+    padding-top: 252px;
+}
+
+.maps-content img {
+    padding: 26px 10px;
+}
+
+.footer {
+    background: rgba(0, 0, 0);
 }
