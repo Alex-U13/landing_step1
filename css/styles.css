@@ -316,6 +316,11 @@ input {
     line-height: 23px;
 }
 
+.button-video-control {
+    display: flex;
+    align-self: center;
+}
+
 .button-video-control-form {
     box-shadow: 0px 15px 15px rgba(227, 184, 115, 0.15);
     font-style: normal;
@@ -619,8 +624,28 @@ label {
     margin-top: -358px;
 }
 
-.clients-content {
+.fon-clients {
+    background-image: url('../images/city.jpg');
+    background-repeat: repeat-x;
+    background-position: bottom;
     padding-top: 111px;
+    position: relative;
+    height: 1107px;
+}
+
+.fon-clients-overlay {
+    content: '';
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    position: absolute;
+    background-color: rgba(255, 255, 255, .9);
+}
+
+.clients-content {
+    z-index: 1;
+    position: relative;
 }
 
 .title-h3 {
@@ -728,19 +753,6 @@ label {
 
 .button-client span {
     padding-top: 18px;
-}
-
-.fon-clients {
-    background-image: url('../images/city.jpg');
-    background-repeat: repeat-x;
-    height: 449px;
-    position: relative;
-}
-
-.fon-clients-overlay {
-    content: '';
-    position: absolute;
-    background-color: rgba(255, 255, 255, .9);
 }
 
 .maps {
