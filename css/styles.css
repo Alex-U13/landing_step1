@@ -31,6 +31,10 @@ body {
     line-height: 15px;
 }
 
+.button:hover {
+    cursor: pointer;
+}
+
 .button-header {
     padding: 13px 33px;
 }
@@ -165,6 +169,7 @@ body {
 .block-projects {
     display: flex;
     margin-top: 52.68px;
+    margin-bottom: 92px;
 }
 
 .completed-projects {
@@ -219,14 +224,22 @@ body {
     padding-right: 25.5px;
 }
 
-.online-control-text {
+.subtitle-main {
     font-family: Yeseva One;
     font-size: 20px;
     line-height: 28px;
     text-align: center;
     text-transform: uppercase;
+    color: #E3B873;
+    margin-bottom: 13px;
+}
+
+.subtitle-main-white {
     color: #FFFFFF;
-    padding-top: 92px;
+}
+
+.subtitle-main-black {
+    color: #181818;
 }
 
 .online-control-logo {
@@ -302,18 +315,24 @@ body {
 input,
 label {
     display: block;
+    text-align: left;
 }
 
 .label {
     font-size: 13px;
     line-height: 21px;
     color: rgba(54, 54, 54, 0.5);
-    text-align: left;
 }
 
 input {
     font-size: 14px;
     line-height: 23px;
+    border: 1px solid transparent;
+    border-bottom-color: rgba(255, 255, 255, 0.15);
+}
+
+.input-dark {
+    border-bottom-color: rgba(54, 54, 54, 0.3);
 }
 
 .button-video-control {
@@ -332,8 +351,34 @@ input {
     padding: 12px 75.5px;
 }
 
-.checkbox {
-    display: inline;
+.checkbox-class {
+    position: absolute;
+    z-index: -1;
+    opacity: 0;
+}
+
+.checkbox-class+label {
+    position: relative;
+    padding: 0 0 0 49px;
+    cursor: pointer;
+}
+
+.checkbox-class+label:before {
+    content: '';
+    position: absolute;
+    width: 18px;
+    height: 18px;
+    border-radius: 1px;
+    background-color: #E3B873;
+}
+
+.checkbox-class:checked+label:before {
+    background-image: url('../images/svg/V.svg');
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.checkbox-text {
     font-size: 14px;
     line-height: 23px;
     color: #181818;
@@ -346,17 +391,6 @@ input {
 
 .types-of-repair__content {
     text-align: center;
-}
-
-.types-of-repair__text {
-    font-family: Yeseva One;
-    font-style: normal;
-    font-weight: normal;
-    font-size: 20px;
-    line-height: 28px;
-    text-transform: uppercase;
-    color: #181818;
-    margin-bottom: 13px;
 }
 
 .description-of-types {
@@ -487,6 +521,7 @@ input {
     width: 408px;
     background: #131313;
     color: #FFFFFF;
+    /* почему не работает?*/
     margin-bottom: 48px;
 }
 
@@ -648,21 +683,11 @@ label {
     position: relative;
 }
 
-.title-h3 {
-    font-family: Yeseva One;
-    font-size: 20px;
-    line-height: 28px;
-    text-align: center;
-    text-transform: uppercase;
-    color: #181818;
-}
-
 .minor-logo-center {
     text-align: center;
 }
 
 .logo-clients-hand {
-    margin-top: 13px;
     margin-bottom: 24px;
 }
 
@@ -786,15 +811,9 @@ label {
     z-index: 1;
 }
 
-.questions-content h2 {
-    font-family: Yeseva One;
-    font-size: 20px;
-    line-height: 28px;
-    text-align: center;
-    text-transform: uppercase;
-    color: #FFFFFF;
+.questions-content h3 {
     padding-top: 34px;
-    padding-bottom: 46px;
+    padding-bottom: 33px;
 }
 
 .question-form {
@@ -872,8 +891,9 @@ label {
     z-index: 1;
 }
 
-.maps-content h2 {
+.maps-content h3 {
     padding-top: 252px;
+    margin-bottom: 0;
 }
 
 .maps-content img {
