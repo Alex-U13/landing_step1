@@ -224,6 +224,13 @@ body {
     padding-right: 25.5px;
 }
 
+.foto-projects {
+    background-image: url('../images/admiral.jpg');
+    background-repeat: no-repeat;
+    width: 679px;
+    height: 482px;
+}
+
 .subtitle-main {
     font-family: Yeseva One;
     font-size: 20px;
@@ -322,6 +329,7 @@ label {
     font-size: 13px;
     line-height: 21px;
     color: rgba(54, 54, 54, 0.5);
+    text-align: left;
 }
 
 input {
@@ -397,6 +405,27 @@ input {
     display: flex;
     justify-content: space-between;
     margin-top: 31px;
+}
+
+.redecor {
+    background-image: url('../images/redecor.jpg');
+    background-repeat: no-repeat;
+    width: 392px;
+    height: 421px;
+}
+
+.overh-l {
+    background-image: url('../images/overhaul.jpg');
+    background-repeat: no-repeat;
+    width: 392px;
+    height: 421px;
+}
+
+.designer {
+    background-image: url('../images/designer.jpg');
+    background-repeat: no-repeat;
+    width: 392px;
+    height: 421px;
 }
 
 .description-of-types form {
@@ -521,8 +550,11 @@ input {
     width: 408px;
     background: #131313;
     color: #FFFFFF;
-    /* почему не работает?*/
     margin-bottom: 48px;
+}
+
+.input-request::placeholder {
+    color: #FFFFFF;
 }
 
 .checkbox-request {
@@ -841,6 +873,10 @@ label {
     border-bottom-style: solid;
 }
 
+.input-question::placeholder {
+    color: #FFFFFF;
+}
+
 .main-question {
     width: 490px;
     margin-top: -20px;
@@ -902,4 +938,172 @@ label {
 
 .footer {
     background: rgba(0, 0, 0);
+}
+
+@media screen and (max-width: 380px) {
+    .container {
+        padding-left: 18px;
+        padding-right: 18px;
+        width: 370px;
+    }
+    .header-content {
+        height: 70px;
+    }
+    .logo {
+        width: 178px;
+        line-height: normal;
+    }
+    .hide {
+        display: none;
+    }
+    .header-telefon {
+        color: #FFFFFF;
+        font-style: normal;
+        text-decoration: none;
+    }
+    .fon1 {
+        height: 476px;
+        padding-top: 85px;
+    }
+    .title {
+        font-size: 23px;
+        line-height: 31px;
+    }
+    .subtitle {
+        font-size: 14px;
+        line-height: 19px;
+        margin-top: 16px;
+        margin-bottom: 32px;
+    }
+    .buttons {
+        flex-wrap: wrap;
+    }
+    .button-main {
+        margin-bottom: 26px;
+        height: 51px;
+        width: 338px;
+    }
+    .block-projects {
+        margin-top: 0;
+        padding-top: 36px;
+        flex-wrap: wrap;
+        text-align: center;
+    }
+    .completed-projects {
+        margin-right: 0;
+    }
+    .completed-projects h2 {
+        font-size: 22px;
+        line-height: 30px;
+        margin-bottom: 22px;
+    }
+    .completed-projects p {
+        font-size: 11px;
+        line-height: 17px;
+    }
+    .project-parameters__element {
+        width: 150px;
+        text-align: left;
+    }
+    .project-parameters__element h3 {
+        font-size: 14px;
+        line-height: 19px;
+    }
+    .project-parameters__element p {
+        font-size: 11px;
+        line-height: 15px;
+    }
+    .foto-projects {
+        background-image: url('../images/admiralSmall.jpg');
+        background-repeat: no-repeat;
+        width: 340px;
+        height: 242px;
+        background-image: url('../images/svg/left_admiral.svg') url('../images/svg/right-admiral.svg');
+    }
+    /* доработать,см.макет*/
+    .subtitle-main {
+        font-size: 22px;
+        line-height: 30px;
+    }
+    .video {
+        width: 340px;
+        height: 207px;
+        background-size: cover;
+    }
+    .video-content div {
+        padding-top: 62px;
+        padding-left: 116px;
+    }
+    .video-control {
+        background: #131313;
+    }
+    .video-control-content {
+        padding-top: 28px;
+        color: #ffffff;
+    }
+    .tire-center {
+        margin-bottom: 20px;
+    }
+    .video-control-content p {
+        font-size: 11px;
+        line-height: 19px;
+        padding-bottom: 61px;
+    }
+    .input-button div {
+        margin: 0;
+        padding: 0;
+        color: #FFFFFF;
+        text-align: left;
+        width: 340px;
+    }
+    .label-mobile {
+        font-size: 13px;
+        line-height: 21px;
+        color: rgba(255, 255, 255, 0.5);
+    }
+    .input-mobile {
+        font-size: 14px;
+        line-height: 19px;
+        color: #FFFFFF;
+        background: #131313;
+        width: 340px;
+        padding-bottom: 5px;
+        margin-bottom: 63px;
+        border-bottom-color: #ffffff;
+    }
+    .input-mobile::placeholder {
+        color: #FFFFFF;
+    }
+    .checkbox-text {
+        color: #ffffff;
+        font-size: 14px;
+        line-height: 23px;
+        padding-top: -200px;
+    }
+    .description-of-types {
+        flex-wrap: wrap;
+    }
+    .redecor {
+        width: 340px;
+        height: 365px;
+    }
+    .overh-l {
+        width: 340px;
+        height: 365px;
+    }
+    .designer {
+        width: 340px;
+        height: 365px;
+    }
+    .types-text {
+        margin-left: 0;
+        width: 270px;
+        height: 241px;
+    }
+    .div-types {
+        margin-bottom: 177px;
+    }
+    .button-price {
+        margin-left: -31px;
+    }
 }
