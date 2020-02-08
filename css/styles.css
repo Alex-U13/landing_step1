@@ -329,7 +329,6 @@ label {
     font-size: 13px;
     line-height: 21px;
     color: rgba(54, 54, 54, 0.5);
-    text-align: left;
 }
 
 input {
@@ -369,15 +368,16 @@ input {
     position: relative;
     padding: 0 0 0 49px;
     cursor: pointer;
+    display: inline-flex;
 }
 
 .checkbox-class+label:before {
     content: '';
-    position: absolute;
     width: 18px;
     height: 18px;
     border-radius: 1px;
     background-color: #E3B873;
+    margin-right: 8px;
 }
 
 .checkbox-class:checked+label:before {
@@ -407,21 +407,21 @@ input {
     margin-top: 31px;
 }
 
-.redecor {
+.redecorating {
     background-image: url('../images/redecor.jpg');
     background-repeat: no-repeat;
     width: 392px;
     height: 421px;
 }
 
-.overh-l {
+.overhaul {
     background-image: url('../images/overhaul.jpg');
     background-repeat: no-repeat;
     width: 392px;
     height: 421px;
 }
 
-.designer {
+.designer-repair {
     background-image: url('../images/designer.jpg');
     background-repeat: no-repeat;
     width: 392px;
@@ -501,7 +501,7 @@ input {
     padding-bottom: 90px;
 }
 
-.krug {
+.circle {
     background: #E3B873;
     border: 8px solid #FFFFFF;
     box-shadow: 0px 5px 15px rgba(227, 184, 115, 0.15);
@@ -988,9 +988,11 @@ label {
         padding-top: 36px;
         flex-wrap: wrap;
         text-align: center;
+        margin-bottom: 0;
     }
     .completed-projects {
         margin-right: 0;
+        position: relative;
     }
     .completed-projects h2 {
         font-size: 22px;
@@ -1000,6 +1002,7 @@ label {
     .completed-projects p {
         font-size: 11px;
         line-height: 17px;
+        padding-bottom: 254px;
     }
     .project-parameters__element {
         width: 150px;
@@ -1014,13 +1017,22 @@ label {
         line-height: 15px;
     }
     .foto-projects {
-        background-image: url('../images/admiralSmall.jpg');
-        background-repeat: no-repeat;
         width: 340px;
         height: 242px;
-        background-image: url('../images/svg/left_admiral.svg') url('../images/svg/right-admiral.svg');
+        margin-top: -515px;
+        background-image: url('../images/admiralSmall.jpg');
+        z-index: 1;
     }
-    /* доработать,см.макет*/
+    .scrolling-pictures-mobile {
+        width: 310px;
+        margin-left: auto;
+        margin-right: auto;
+        margin-top: -790px;
+        z-index: 2;
+        background-image: url('../images/svg/left_admiral.svg'), url('../images/svg/right_admiral.svg');
+        background-position: left, right;
+        background-repeat: no-repeat;
+    }
     .subtitle-main {
         font-size: 22px;
         line-height: 30px;
@@ -1040,6 +1052,8 @@ label {
     .video-control-content {
         padding-top: 28px;
         color: #ffffff;
+        position: relative;
+        height: 538px;
     }
     .tire-center {
         margin-bottom: 20px;
@@ -1048,6 +1062,9 @@ label {
         font-size: 11px;
         line-height: 19px;
         padding-bottom: 61px;
+    }
+    .input-button {
+        position: relative;
     }
     .input-button div {
         margin: 0;
@@ -1074,24 +1091,32 @@ label {
     .input-mobile::placeholder {
         color: #FFFFFF;
     }
+    .button-mobile {
+        width: 340px;
+    }
+    .checkbox-class+label {
+        padding: 0;
+    }
     .checkbox-text {
-        color: #ffffff;
+        color: #FFFFFF;
         font-size: 14px;
         line-height: 23px;
-        padding-top: -200px;
+    }
+    .types-of-repair {
+        padding-top: 115px;
     }
     .description-of-types {
         flex-wrap: wrap;
     }
-    .redecor {
+    .redecorating {
         width: 340px;
         height: 365px;
     }
-    .overh-l {
+    .overhaul {
         width: 340px;
         height: 365px;
     }
-    .designer {
+    .designer-repair {
         width: 340px;
         height: 365px;
     }
@@ -1100,10 +1125,92 @@ label {
         width: 270px;
         height: 241px;
     }
+    .types-text h4 {
+        font-size: 15px;
+        line-height: 21px;
+        padding-bottom: 3px;
+    }
+    .types-text ul li {
+        line-height: 22px;
+    }
     .div-types {
         margin-bottom: 177px;
     }
     .button-price {
         margin-left: -31px;
+        font-size: 15px;
+        line-height: 21px;
+    }
+    .styles {
+        background-image: none;
+        height: 175px;
+    }
+    .styles-content {
+        flex-wrap: wrap;
+    }
+    .styles-text {
+        width: auto;
+    }
+    .styles-title {
+        text-align: center;
+        padding-top: 0;
+        font-size: 22px;
+        line-height: 30px;
+        padding-bottom: 30px;
+        width: 340px;
+    }
+    .styles-pictures {
+        background-image: url('../images/styles-fon.jpg');
+        background-repeat: no-repeat;
+        width: 340px;
+        height: 242px;
+        background-size: contain;
+        position: absolute;
+        margin-top: 80px;
+    }
+    .scrolling-pictures-mobile-last {
+        margin-top: -53px;
+    }
+    .maps {
+        background-image: none;
+        height: 980px;
+        background: #131313;
+    }
+    .questions-content {
+        width: 340px;
+        position: relative;
+        margin: 0;
+        padding: 0;
+        padding-top: 140px;
+        z-index: 0;
+        background: #131313;
+    }
+    .question-form {
+        width: 340px;
+        height: 304px;
+        margin: 0;
+    }
+    .question-form___item {
+        width: 260px;
+        padding: 0;
+        height: 40px;
+    }
+    .checkbox-question {
+        margin: 0;
+        text-align: left;
+    }
+    .submit-question {
+        margin: 0;
+    }
+    .maps-content h3 {
+        font-size: 18px;
+        line-height: 25px;
+    }
+    .maps-mobile {
+        width: 340px;
+        height: 242px;
+        background: url('../images/map-mobile.jpg') no-repeat center;
+        z-index: 1;
+        margin-top: -420px;
     }
 }
