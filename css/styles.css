@@ -940,7 +940,7 @@ label {
     background: rgba(0, 0, 0);
 }
 
-@media screen and (max-width: 380px) {
+@media screen and (max-width: 1300px) {
     .container {
         padding-left: 18px;
         padding-right: 18px;
@@ -1103,8 +1103,10 @@ label {
         line-height: 23px;
     }
     /*.form-checkbox-mobile1 {
+        margin-top: -100px;
         position: absolute;
-    }  /*поднимает над кнопкой, но margin/padding не работают, чтобы поставить в необходимое место*/
+    }
+    /*поднимает над кнопкой, но margin/padding не работают, чтобы поставить в необходимое место*/
     .types-of-repair {
         padding-top: 115px;
     }
