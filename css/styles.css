@@ -290,7 +290,6 @@ body {
 .video-control-content {
     font-size: 18px;
     line-height: 37px;
-    text-align: center;
     color: #363636;
     padding-top: 62.5px;
 }
@@ -298,11 +297,13 @@ body {
 .tire-center {
     background: #E3B873;
     border-radius: 30px;
+    margin: 0 auto;
     margin-bottom: 34.46px;
 }
 
 .video-control-content p {
     padding-bottom: 91.5px;
+    text-align: center;
 }
 
 .input-button {
@@ -356,6 +357,7 @@ input {
     text-transform: uppercase;
     color: #FFFFFF;
     padding: 12px 75.5px;
+    margin-top: 10px;
 }
 
 .checkbox-class {
@@ -392,11 +394,6 @@ input {
     color: #181818;
 }
 
-.checkbox-input {
-    background-color: line-height: 23px;
-    color: #FFFFFF;
-}
-
 .types-of-repair__content {
     text-align: center;
 }
@@ -405,6 +402,10 @@ input {
     display: flex;
     justify-content: space-between;
     margin-top: 31px;
+}
+
+.div-types {
+    text-align: left;
 }
 
 .redecorating {
@@ -428,7 +429,7 @@ input {
     height: 421px;
 }
 
-.description-of-types form {
+.description-of-types button {
     text-align: left;
     margin-left: 31px;
     margin-top: -30px;
@@ -981,7 +982,7 @@ label {
     .button-main {
         margin-bottom: 26px;
         height: 51px;
-        width: 338px;
+        width: 100%;
     }
     .block-projects {
         margin-top: 0;
@@ -1053,7 +1054,7 @@ label {
         padding-top: 28px;
         color: #ffffff;
         position: relative;
-        height: 538px;
+        height: 576px;
     }
     .tire-center {
         margin-bottom: 20px;
@@ -1065,6 +1066,18 @@ label {
     }
     .input-button {
         position: relative;
+    }
+    .input-button1 {
+        order: 1;
+    }
+    .input-button2 {
+        order: 2;
+    }
+    .input-button3 {
+        order: 4;
+    }
+    .input-button4 {
+        order: 3;
     }
     .input-button div {
         margin: 0;
@@ -1102,11 +1115,6 @@ label {
         font-size: 14px;
         line-height: 23px;
     }
-    /*.form-checkbox-mobile1 {
-        margin-top: -100px;
-        position: absolute;
-    }
-    /*поднимает над кнопкой, но margin/padding не работают, чтобы поставить в необходимое место*/
     .types-of-repair {
         padding-top: 115px;
     }
