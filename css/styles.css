@@ -837,7 +837,6 @@ label {
     margin-right: auto;
     width: 883px;
     background: rgb(0, 0, 0);
-    position: absolute;
     margin-top: -220px;
     color: #ffffff;
     align-self: center;
@@ -929,7 +928,7 @@ label {
 }
 
 .maps-content h3 {
-    padding-top: 252px;
+    margin-top: 51px;
     margin-bottom: 0;
 }
 
@@ -1041,11 +1040,18 @@ label {
     .video {
         width: 340px;
         height: 207px;
+        padding: 0;
         background-size: cover;
+    }
+    .video-content {
+        padding: 0;
+        margin: 0;
+        width: 334px;
     }
     .video-content div {
         padding-top: 62px;
-        padding-left: 116px;
+        padding-left: 129px;
+        margin: 0;
     }
     .video-control {
         background: #131313;
@@ -1186,7 +1192,7 @@ label {
     }
     .maps {
         background-image: none;
-        height: 972px;
+        height: 1042px;
         background: #131313;
     }
     .questions-content {
@@ -1219,9 +1225,16 @@ label {
     .submit-question {
         margin: 0;
     }
+    .maps-content {
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: column;
+    }
     .maps-content h3 {
         font-size: 18px;
         line-height: 25px;
+        order: 2;
+        margin-top: 30px;
     }
     .maps-mobile {
         width: 340px;
@@ -1229,6 +1242,10 @@ label {
         background: url('../images/map-mobile.jpg') no-repeat center;
         background-size: cover;
         z-index: 1;
-        margin-top: -420px;
+        margin-top: 51px;
+        order: 1;
+    }
+    .logo-contact {
+        order: 3;
     }
 }
