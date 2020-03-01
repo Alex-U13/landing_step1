@@ -945,6 +945,9 @@ label {
         padding-left: 18px;
         padding-right: 18px;
         width: 370px;
+        margin-left: 0;
+        margin-right: 0;
+        margin: 0 auto;
     }
     .header-content {
         height: 70px;
